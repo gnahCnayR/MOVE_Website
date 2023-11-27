@@ -15,12 +15,43 @@ body {
 }
 
 .footer {
-  background: url(./images/footer.svg) top center no-repeat;
-  background-size: cover;
+  /* background: url(./images/footer.svg) top center no-repeat;
+  background-size: cover; */
+  background-color: white;
 }
 
 .cta {
   background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url(https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) fixed center center;
+}
+
+.custom-text-color{
+  color: #6C8F84;
+}
+
+.custom-pt-color{
+  color: #66a286;
+}
+
+.custom-bg-color{
+  background-color: #6C8F84;
+}
+
+.custom-border-color{
+  border-color: #6C8F84;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 

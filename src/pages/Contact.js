@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavBar from '../components/Navbar/NavBar';
+import NavBar from '../components/Navbar/NavBar2';
 import Footer from '../components/Footer';
 import {useDocTitle} from '../components/CustomHook';
 import axios from 'axios';
@@ -7,7 +7,7 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 
 const Contact = () => {
-    useDocTitle('MLD | Molad e Konsult - Send us a message')
+    useDocTitle('Marshall Outreach Volunteer Entreprenuers | Contact')
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')

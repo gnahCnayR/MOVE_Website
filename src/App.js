@@ -11,6 +11,11 @@ import {
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
+import Initiatives from './pages/Initiatives';
+import Events from './pages/Events';
+import Eboard from './pages/Eboard';
+import Mission from './pages/Mission';
+import Application from './pages/Application';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
@@ -30,7 +35,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("Marshall Outreach Volunteer Entrepreneurs | USC's Premier Social Entrepreneurship Organization");
 
   return (
     <>
@@ -38,8 +43,13 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/eboard" element={<Eboard />} />
+            <Route path="/mission" element={<Mission />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} /> 
+            <Route path="/join-us" element={<Application />} /> 
+            <Route path="/initiatives" element={<Initiatives />} />
+            <Route path="/events" element={<Events />} />
           </Routes>
         </ScrollToTop>
       </Router>

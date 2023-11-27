@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavBar from '../components/Navbar/NavBar';
+import NavBar from '../components/Navbar/NavBar2';
 import Footer from '../components/Footer';
 import {useDocTitle} from '../components/CustomHook';
 import axios from 'axios';

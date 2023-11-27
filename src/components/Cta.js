@@ -6,8 +6,8 @@ const Cta = () => {
             <div className="mx-8 w-full h-96 text-center lg:text-left py-16 px-12 flex lg:justify-between items-center">                    
                 <div className="w-full flex flex-col lg:flex-row lg:justify-around">
                     <div className="mb-4">
-                        <p className='text-2xl md:text-4xl font-bold mb-4'>Are you ready to scale your business?</p>
-                        <p className="text-lg md:text-2xl">Get in touch and let us build something amazing <span className='font-black'>together!</span></p>
+                        <p className='text-2xl md:text-4xl font-bold mb-4'>Are you ready to make an impact?</p>
+                        <p className="text-lg md:text-2xl">Get in touch and contribute to something amazing <span className='font-black'>together!</span></p>
                     </div>
                     
                     <div className="w-full lg:w-72 pt-6 lg:mx-12">

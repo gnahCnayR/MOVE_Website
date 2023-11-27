@@ -2,7 +2,7 @@
   "name": "mld",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mld.ng/",
+  "homepage": "https://gnahCnayR.github.io/MOVE_Website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -20,6 +20,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.7"
   }
