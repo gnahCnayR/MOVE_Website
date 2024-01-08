@@ -2,7 +2,7 @@
   "name": "mld",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gnahCnayR.github.io/MOVE_Website",
+  "homepage": "https://mld.ng/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -10,6 +10,7 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^0.24.0",
     "emailjs-com": "^3.2.0",
+    "googleapis": "^129.0.0",
     "notiflix": "^3.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

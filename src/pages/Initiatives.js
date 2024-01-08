@@ -5,7 +5,7 @@ import temp from '../images/initbackground.png';
 import skyline from '../images/skyline.png';
 import tms from '../images/clients/tms.png';
 import ems from '../images/clients/emilyshance.jpg';
-import infop from '../images/infop.jpg';
+import infop from '../images/infop.webp';
 import foodreco from '../images/foodreco.webp';
 import mentalhealth from '../images/mentalhealth.webp';
 import beach from '../images/IMG_1687.jpg';
@@ -57,13 +57,13 @@ const Initiatives = () => {
       </div>
       <div className="container mx-auto my-16 px-4">
         {/* <h1 className="text-4xl font-bold mb-8 text-center custom-text-color">Our Initiatives</h1> */}
-        <InitiativeItem
+        {/* <InitiativeItem
           title="Marshall Community Service Day"
           description="MOVE is proud to host USC Marshall's official annual community service day, MCSD.
 
           This event is designed for students, faculty, and alumni of the Marshall community to come together, network, learn, and give back to the Los Angeles community through increased awareness on social issues and hands-on volunteering activities."
           image={mcsd}
-        />
+        /> */}
         <InitiativeItem
           title="Mental Health Podcast"
           description="Through this podcast, we want to shed more light on our mental health and wellbeing as students. Throughout the semester, we interview different professionals, psychology professors, clinical psychologists, mental health coordinators, as well as students. 

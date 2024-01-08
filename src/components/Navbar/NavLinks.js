@@ -18,14 +18,18 @@ const AboutSublinks = ({ isOpen }) => {
 const NavLinks = ({ isNavbarHidden, applyStyling }) => {
     const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
-    const toggleAboutDropdown = () => {
-        setAboutDropdownOpen(!aboutDropdownOpen);
+    const openAboutDropdown = () => {
+        setAboutDropdownOpen(true);
+    };
+
+    const closeAboutDropdown = () => {
+        setAboutDropdownOpen(false);
     };
 
     return (
         <div className="flex items-center">
             <div className="relative group">
-                <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} smooth to="/" onClick={toggleAboutDropdown}>
+                <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} smooth to="/" onClick={openAboutDropdown}>
                     About
                 </HashLink>
                 <AboutSublinks isOpen={aboutDropdownOpen} />
@@ -33,12 +37,13 @@ const NavLinks = ({ isNavbarHidden, applyStyling }) => {
             <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} smooth to="/initiatives">
                 Initiatives
             </HashLink>
+            <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} to="/MCSD">
+                MCSD
+            </HashLink>
             <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} to="/events">
                 Events
             </HashLink>
-            {/* <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} to="/contact">
-                Resources
-            </HashLink> */}
+            
             <Link className={`text-white ${isNavbarHidden ? 'custom-bg-color' : 'hover:custom-text-color'} inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`} smooth to="/join-us">
                 Join Us
             </Link>
