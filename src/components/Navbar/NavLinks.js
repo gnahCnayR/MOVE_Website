@@ -44,9 +44,14 @@ const NavLinks = ({ isNavbarHidden, applyStyling }) => {
                 Events
             </HashLink>
             
-            <Link className={`text-white ${isNavbarHidden ? 'custom-bg-color' : 'hover:custom-text-color'} inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`} smooth to="/join-us">
+            <a
+                className={`text-white ${isNavbarHidden ? 'custom-bg-color' : 'hover:custom-text-color'} inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`}
+                href="https://forms.gle/RoMDQkcikEvVHKxn9"  // Replace with your actual external link
+                target="_blank"  // Open the link in a new tab/window
+                rel="noopener noreferrer"
+            >
                 Join Us
-            </Link>
+            </a>
         </div>
     );
 };

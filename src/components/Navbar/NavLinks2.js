@@ -39,9 +39,18 @@ const NavLinks = () => {
             {/* <HashLink className={`px-4 font-extrabold custom-text-color hover:text-green-900`} to="/contact">
                 Resources
             </HashLink> */}
-            <Link className={`text-white custom-bg-color inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`} smooth to="/join-us">
+            {/* <Link className={`text-white custom-bg-color inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`} smooth to="/join-us">
                 Join Us
-            </Link>
+            </Link> */}
+            <a
+                className={`text-white custom-bg-color inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`}
+                href="https://forms.gle/RoMDQkcikEvVHKxn9"  // Replace with your actual external link
+                target="_blank"  // Open the link in a new tab/window
+                rel="noopener noreferrer"
+            >
+                Join Us
+            </a>
+
         </div>
     );
 };
