@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/MOVE_Website/static/css/main.1f748abf.css",
-    "main.js": "/MOVE_Website/static/js/main.0d162340.js",
+    "main.js": "/MOVE_Website/static/js/main.abe92b06.js",
     "static/media/hanaestrela.jpg": "/MOVE_Website/static/media/hanaestrela.436ed5e179665a60c01b.jpg",
+    "static/media/IMG_3529.png": "/MOVE_Website/static/media/IMG_3529.3bc8e83a4eb60a0dc68a.png",
     "static/media/katiehahn.jpeg": "/MOVE_Website/static/media/katiehahn.ddd5f864c6e6e8c9a13d.jpeg",
     "static/media/movehear.png": "/MOVE_Website/static/media/movehear.355953ec18320055d4b8.png",
     "static/media/eboard.png": "/MOVE_Website/static/media/eboard.42e0f5b558ffedf28786.png",
@@ -17,6 +18,7 @@
     "static/media/skyline.png": "/MOVE_Website/static/media/skyline.d1b3bb09b160b6d21d4a.png",
     "static/media/initbackground.png": "/MOVE_Website/static/media/initbackground.865a439f2cbb01438125.png",
     "static/media/ishika.jpg": "/MOVE_Website/static/media/ishika.eff3c83ac081718a5c2f.jpg",
+    "static/media/Liang_Jessica.png": "/MOVE_Website/static/media/Liang_Jessica.b4fababd630f7ea4e261.png",
     "static/media/appclose.png": "/MOVE_Website/static/media/appclose.6a211024425964d33a7a.png",
     "static/media/mcsd.webp": "/MOVE_Website/static/media/mcsd.3aed3e15ea9a15c273b4.webp",
     "static/media/lafoodbank.png": "/MOVE_Website/static/media/lafoodbank.8526dc183c36ea8926cd.png",
@@ -30,12 +32,10 @@
     "static/media/jessjaing.jfif": "/MOVE_Website/static/media/jessjaing.857741259b553c90b2dd.jfif",
     "static/media/emilylee.jfif": "/MOVE_Website/static/media/emilylee.278de08390430aaa5cf9.jfif",
     "static/media/alextse.jfif": "/MOVE_Website/static/media/alextse.ed30d4ed735e881be883.jfif",
-    "static/media/ngatran.jfif": "/MOVE_Website/static/media/ngatran.e1fa8f34116ce3f9a81f.jfif",
     "static/media/sheilavictor.jfif": "/MOVE_Website/static/media/sheilavictor.ac6c28260c95ff0a5ee6.jfif",
     "static/media/aidanwillaism.jfif": "/MOVE_Website/static/media/aidanwillaism.2bac104fafb9b0fa111b.jfif",
     "static/media/hafsa.jfif": "/MOVE_Website/static/media/hafsa.28b2c78c5c0ddd426bdf.jfif",
     "static/media/alissahuang.jfif": "/MOVE_Website/static/media/alissahuang.7f89d9a8204657607864.jfif",
-    "static/media/kendallee.jfif": "/MOVE_Website/static/media/kendallee.050ea56ddcc2a2d3921e.jfif",
     "static/media/ryanchang.jfif": "/MOVE_Website/static/media/ryanchang.eea2b34ca9c199395650.jfif",
     "static/media/movelogo.png": "/MOVE_Website/static/media/movelogo.9d031418af8a42be14dd.png",
     "static/media/tklee.jfif": "/MOVE_Website/static/media/tklee.6d883f3f5233e11b9418.jfif",
@@ -52,10 +52,10 @@
     "index.html": "/MOVE_Website/index.html",
     "static/media/hero-bg.svg": "/MOVE_Website/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
     "main.1f748abf.css.map": "/MOVE_Website/static/css/main.1f748abf.css.map",
-    "main.0d162340.js.map": "/MOVE_Website/static/js/main.0d162340.js.map"
+    "main.abe92b06.js.map": "/MOVE_Website/static/js/main.abe92b06.js.map"
   },
   "entrypoints": [
     "static/css/main.1f748abf.css",
-    "static/js/main.0d162340.js"
+    "static/js/main.abe92b06.js"
   ]
 }
