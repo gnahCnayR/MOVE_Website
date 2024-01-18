@@ -17,6 +17,7 @@ import Eboard from './pages/Eboard';
 import Mission from './pages/Mission';
 import Application from './pages/Application';
 import MCSD from './pages/MCSD';
+import Lead from './pages/Lead';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
@@ -52,6 +53,7 @@ function App() {
             <Route path="/initiatives" element={<Initiatives />} />
             <Route path="/events" element={<Events />} />
             <Route path="/MCSD" element={<MCSD />} />
+            <Route path="/leads" element={<Lead />} />
           </Routes>
         </ScrollToTop>
       </Router>

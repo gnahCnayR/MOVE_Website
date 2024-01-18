@@ -58,7 +58,7 @@ const Home = () => {
             <div className="mission" id='mission' style={backgroundStyle}>
                 <div style={overlayStyle}>
                     <div style={textContainerStyle}>
-                        <h2 className="text-4xl font-bold mb-6 custom-text-color text-center">About Marhsall Community Service Day</h2>
+                        <h2 className="text-4xl font-bold mb-6 custom-text-color text-center">About Marshall Community Service Day</h2>
                         <div className="text-xl text-gray-800" style={textStyle}>
                             <p>
                                 MOVE is proud to host USC Marshall's official annual community service day, MCSD.

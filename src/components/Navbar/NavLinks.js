@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+
+const InitiativesSublinks = ({ isOpen }) => {
+    return (
+        <div className={`absolute z-10 ${isOpen ? 'block' : 'hidden'} bg-white mt-2 py-2 rounded-lg shadow-md`}>
+            <HashLink className="block px-4 py-2 font-extrabold custom-text-color hover:text-green-900" smooth to="/leads">
+                Leads
+            </HashLink>
+        </div>
+    );
+};
 
 const AboutSublinks = ({ isOpen }) => {
     return (
@@ -17,13 +26,23 @@ const AboutSublinks = ({ isOpen }) => {
 
 const NavLinks = ({ isNavbarHidden, applyStyling }) => {
     const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+    const [initiativesDropdownOpen, setInitiativesDropdownOpen] = useState(false);
 
     const openAboutDropdown = () => {
         setAboutDropdownOpen(true);
+        // Close other dropdowns if needed
+        setInitiativesDropdownOpen(false);
     };
 
-    const closeAboutDropdown = () => {
+    const openInitiativesDropdown = () => {
+        setInitiativesDropdownOpen(true);
+        // Close other dropdowns if needed
         setAboutDropdownOpen(false);
+    };
+
+    const closeDropdowns = () => {
+        setAboutDropdownOpen(false);
+        setInitiativesDropdownOpen(false);
     };
 
     return (
@@ -34,9 +53,14 @@ const NavLinks = ({ isNavbarHidden, applyStyling }) => {
                 </HashLink>
                 <AboutSublinks isOpen={aboutDropdownOpen} />
             </div>
-            <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} smooth to="/initiatives">
-                Initiatives
-            </HashLink>
+
+            <div className="relative group">
+                <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} smooth to="/initiatives" onClick={openInitiativesDropdown}>
+                    Initiatives
+                </HashLink>
+                <InitiativesSublinks isOpen={initiativesDropdownOpen} />
+            </div>
+
             <HashLink className={`px-4 font-extrabold ${isNavbarHidden ? 'custom-text-color' : 'text-white'} hover:text-green-900`} to="/MCSD">
                 MCSD
             </HashLink>

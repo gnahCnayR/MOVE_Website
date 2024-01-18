@@ -77,8 +77,8 @@ const Home = () => {
           <div className="flex flex-wrap items-start h-full">
             <Pres photo={executive1} name="Alex Tse" position="President" />
             <Pres photo={executive2} name="Khue (TK) Lee" position="VP (External Affairs)" />
-            <Pres photo={executive3} name="Gabriela Rosenfeld" position="VP (External Affairs)" />
-            <Pres photo={executive4} name="Jessica Jaing" position="VP (Internal Affairs)" />
+            {/* <Pres photo={executive3} name="Gabriela Rosenfeld" position="VP (External Affairs)" />
+            <Pres photo={executive4} name="Jessica Jaing" position="VP (Internal Affairs)" /> */}
             <Pres photo={executive5} name="Emily Lee" position="VP (Internal Affairs)" />
           </div>
         </div>

@@ -15,6 +15,16 @@ const AboutSublinks = ({ isOpen }) => {
     );
 };
 
+const InitiativesSublinks = ({ isOpen }) => {
+    return (
+        <div className={`absolute z-10 ${isOpen ? 'block' : 'hidden'} bg-white mt-2 py-2 rounded-lg shadow-md`}>
+            <HashLink className="block px-4 py-2 font-extrabold custom-text-color hover:text-green-900" smooth to="/leads">
+                Leads
+            </HashLink>
+        </div>
+    );
+};
+
 const NavLinks = () => {
     const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
@@ -28,11 +38,12 @@ const NavLinks = () => {
                 <HashLink className={`px-4 font-extrabold custom-text-color hover:text-green-900`} smooth to="/" onClick={toggleAboutDropdown}>
                     About
                 </HashLink>
-                <AboutSublinks isOpen={aboutDropdownOpen} />
+                <InitiativesSublinks isOpen={aboutDropdownOpen} />
             </div>
             <HashLink className={`px-4 font-extrabold custom-text-color hover:text-green-900`} smooth to="/initiatives">
                 Initiatives
             </HashLink>
+            <AboutSublinks isOpen={aboutDropdownOpen} />
             <HashLink className={`px-4 font-extrabold custom-text-color hover:text-green-900`} to="/events">
                 Events
             </HashLink>
