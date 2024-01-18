@@ -10,9 +10,9 @@ import executive5 from '../images/eboard/emilylee.jfif';
 import executive6 from '../images/eboard/lillianhsiao.jfif';
 import executive7 from '../images/eboard/sheilavictor.jfif';
 import executive8 from '../images/eboard/ryanchang.jfif';
-import executive9 from '../images/eboard/ngatran.jfif';
+import executive9 from '../images/eboard/IMG_3529.png';
 import executive10 from '../images/eboard/alissahuang.jfif';
-import executive11 from '../images/eboard/kendallee.jfif';
+import executive11 from '../images/eboard/Liang_Jessica.png';
 import executive12 from '../images/eboard/hafsa.jfif';
 import executive13 from '../images/eboard/jaclyn.jfif';
 import executive14 from '../images/eboard/jamie.jfif';
@@ -89,9 +89,9 @@ const Home = () => {
           <ExecutiveMember photo={executive6} name="Lillian Hsiao" position="Director of Communications" />
           <ExecutiveMember photo={executive7} name="Sheila Victor" position="Director of Marketing" />
           <ExecutiveMember photo={executive8} name="Ryan Chang" position="Assistant Director of Marketing" />
-          <ExecutiveMember photo={executive9} name="Nga Tran" position="Director of Finance" />
+          <ExecutiveMember photo={executive9} name="Tanisha Chopra" position="Director of Finance" />
           <ExecutiveMember photo={executive10} name="Alissa Huang" position="Director of Membership Engagement" />
-          <ExecutiveMember photo={executive11} name="Kendal Lee" position="Director of Socials" />
+          <ExecutiveMember photo={executive11} name="Jessica Liang" position="Director of Socials" />
         </div>
       </section>
 
