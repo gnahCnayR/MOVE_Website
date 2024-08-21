@@ -70,7 +70,7 @@ const NavLinks = ({ isNavbarHidden, applyStyling }) => {
             
             <a
                 className={`text-white ${isNavbarHidden ? 'custom-bg-color' : 'hover:custom-text-color'} inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl`}
-                href="https://forms.gle/RoMDQkcikEvVHKxn9"  // Replace with your actual external link
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe5TGmpQB3d8RgPGKCGRCi8BeAHjEYlvUKoyHpeRoXHJr4NGw/viewform?pli=1"  // Replace with your actual external link
                 target="_blank"  // Open the link in a new tab/window
                 rel="noopener noreferrer"
             >
